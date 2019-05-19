@@ -1,8 +1,8 @@
 body{
     background-image: url(fond.jpg);
     background-repeat:no-repeat;
-    background-position: bottom;
-    background-attachment: scroll;
+    background-position:  center;
+    background-attachment:    fixed;
     background-size:  cover;
   }
 
@@ -21,6 +21,11 @@ h1 {
   	 font-size:50px;
   	 color: #E8792D;
      font-family: Courier New;
+     position: absolute;
+     top: 0%;
+     left: 40%;
+
+
    }
 
 
