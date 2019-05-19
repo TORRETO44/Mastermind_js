@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+    background-image: url(fond.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size: auto;
+  }
+
+
+
+
+/* base */
+* {
+	font-family:Arial, sans-serif;
+	 font-size:14px;
+	  font-weight:normal;
+	   font-style:normal;
+	   color:#454550;
+		 padding:0;
+		  margin:0;
+		   box-sizing:border-box;
+		   }
+
+a{
+	text-decoration: none;
+
+}
+
+textarea, select {
+	 border:none;
+	  padding:0;
+	   background:#fdea91;
+	    color:#5A5A5A;
+		 font-weight:bold;
+		  font-size:12px;
+		   border-radius:4px;
+	 }
+textarea, option {
+	padding:4px 4px;
+ 	font-weight:bold;
+	 color:#5A5A5A;
+	  font-size:12px;
+	  }
+
+
+.rejouer{
+  position: relative;
+  left: -300px;
+  top: 100px;
+}
+.regle{
+position: relative;
+  left: -500px;
+  top: 200px;
+}
+
+
+    input{
+            width: 200px;
+            height: 50px;
+            border:none;
+
+            background:#fdea91;
+            color:#5A5A5A;
+            font-weight:bold;
+            font-size:30px;
+            border-radius:4px;
+            padding:4px 4px;
+            font-family: Courier New;
+
+          }
+          input:hover{
+             background: #ded08c;
+          }
+
+
+.inputs {
+	width:200px;
+	}
+.linputs {
+	width:400px;
+	}
+.sinputs {
+	width:150px;
+	}
+.vsinputs {
+	width:75px;
+	}
+.vlinputs {
+	width:100%;
+	}
+form {
+	margin:0;
+	}
+
+sup, sub {
+	font-size:9px;
+	 color:inherit;
+	 }
+
+
+/* titre */
+h1 {
+	font-size:50px;
+	 color: #E8792D;
+   position: relative;
+	 left:550px;
+	 top: 10px;
+    font-family: Courier New;
+
+	 }
+
+/* table */
+table {
+	border-collapse:collapse;
+	}
+table td {
+	border:solid 1px #888;
+	 padding:15px;
+	  text-align:center;
+	  }
+table tr.selected td {
+	background:#bfd1ff;
+	}
+table tr.selected td.selected {
+	background:#dce6ff;
+	}
+table tr td.valid {
+	display:none;
+	}
+table tr.selected td.valid {
+	display:table-cell;
+	}
+
+.pion {
+	display:inline-block;
+	width:25px;
+	 height:25px;
+	 border-radius:20px;
+	  border:solid 1px #888;
+	  }
+
+
+
+/* pion */
+.correct {
+	display:inline-block;
+	 width:15px;
+	  height:15px;
+	   border-radius:10px;
+	    border:solid 1px #888;
+		 background:black;
+		 }
+.misplaced {
+	display:inline-block;
+	 width:15px;
+	  height:15px;
+	   border-radius:10px;
+	    border:solid 1px #888;
+			background: white;
+		}
+
+
+/* page */
+table tr.win td {
+	background:#43b456;
+	}
+
+.page {
+	font-size:0;
+	position: relative;
+	top: 40px;
+	left: 270px;
+
+
+	}
+.page .game {
+	width:50%;
+	display:inline-block;
+	 vertical-align:top;
+
+	 }
+.page .options {
+	width:50%;
+	 display:inline-block;
+	  vertical-align:top;
+	  }
+.result {
+	text-align:center;
+	 font-size:30px;
+	 }
