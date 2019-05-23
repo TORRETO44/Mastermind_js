@@ -43,13 +43,13 @@ textarea, option {
 
 .rejouer{
   position:   absolute;
-  left:0%;
+  left: 50%;
   top:50%;
 }
 
 .regle{
-position: absolute;
-  left:0%;
+  position: absolute;
+  left:50%;
   top:60%;
 }
 
@@ -178,13 +178,11 @@ table tr.win td {
 	font-size:0;
 	position: absolute;
 	top: 30%;
-	left: 35%;
+	left: 20%;
 }
 
 
 .page .game {
-  width:100%;
-  height: 200%;
 	display:inline-block;
 }
 

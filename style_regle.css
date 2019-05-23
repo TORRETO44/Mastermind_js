@@ -1,26 +1,29 @@
 body{
     background-image: url(fond_regle.jpg);
-    background-repeat:no-repeat;
-    background-position:center;
-    background-attachment:fixed;
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
   }
+
+a{
+  text-decoration: none;
+}
   input{
-          width: 200px;
+          width: 255px;
           height: 50px;
           border:none;
-          background:#fdea91;
-          color:#5A5A5A;
+          background: #b82404;
+          color: #5A5A5A;
           font-weight:bold;
           font-size:30px;
           border-radius:4px;
-          padding:4px 4px;
-          position: relative;
-          left: -800px;
-          top: 400px;
+          position: absolute;
+          left: 43%;
         }
+
         input:hover{
-           background: #ded08c;
+           background: #9e1e03;
         }
 
 h1{
@@ -28,8 +31,11 @@ h1{
   color: #b82404;
   font-size: 50px;
   font-weight: bold;
+  text-align: center;
 }
+
   p{
+    text-align: center;
     font-family: Courier New;
     color: #b82404;
     font-size: 20px;
