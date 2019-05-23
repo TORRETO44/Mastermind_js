@@ -9,10 +9,7 @@ body{
 a {
     text-decoration: none;
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> 39d7002b46ab2b7512fde1e415a5c2ccb1a5d68d
 
 
 p{
@@ -66,11 +63,7 @@ h3{
           animation-delay: 30s;
           animation-fill-mode: forwards;
           position: absolute;
-<<<<<<< HEAD
           top: 45%;
-=======
-          top: 60%;
->>>>>>> 39d7002b46ab2b7512fde1e415a5c2ccb1a5d68d
           left: 20%;
 }
 
@@ -92,11 +85,8 @@ img{
   animation-delay: 30s;
   animation-fill-mode: forwards;
   position: absolute;
-<<<<<<< HEAD
   top: 35%;
   left: 50%
-=======
->>>>>>> 39d7002b46ab2b7512fde1e415a5c2ccb1a5d68d
 
 }
 
