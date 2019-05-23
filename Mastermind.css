@@ -4,10 +4,10 @@
 
 body{
     background-image: url(fond.jpg);
-    background-repeat:no-repeat;
-    background-position:center;
-    background-attachment:fixed;
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
 
@@ -16,67 +16,59 @@ body{
 /* base */
 * {
 	font-family:Arial, sans-serif;
-	 font-size:14px;
-	  font-weight:normal;
-	   font-style:normal;
-	   color:#454550;
-		 padding:0;
-		  margin:0;
-		   box-sizing:border-box;
-		   }
+  font-size:14px;
+  font-weight:normal;
+  font-style:normal;
+	color:#454550;
+  box-sizing:border-box;
+}
 
 a{
 	text-decoration: none;
-
 }
 
 textarea, select {
-	 border:none;
-	  padding:0;
+	   border:none;
 	   background:#fdea91;
-	    color:#5A5A5A;
+	   color:#5A5A5A;
 		 font-weight:bold;
-		  font-size:12px;
-		   border-radius:4px;
+	   font-size:12px;
+	   border-radius:4px;
 	 }
 textarea, option {
-	padding:4px 4px;
  	font-weight:bold;
 	 color:#5A5A5A;
 	  font-size:12px;
 	  }
 
-
 .rejouer{
-  position: relative;
-  left: -300px;
-  top: 100px;
+  position:   absolute;
+  left:0%;
+  top:50%;
 }
+
 .regle{
-position: relative;
-  left: -500px;
-  top: 200px;
+position: absolute;
+  left:0%;
+  top:60%;
 }
 
 
-    input{
-            width: 200px;
-            height: 50px;
-            border:none;
+input{
+      width: 200px;
+      height: 50px;
+      border:none;
+      background:#fdea91;
+      color:#5A5A5A;
+      font-weight:bold;
+      font-size:30px;
+      border-radius:4px;
+      font-family: Courier New;
+}
 
-            background:#fdea91;
-            color:#5A5A5A;
-            font-weight:bold;
-            font-size:30px;
-            border-radius:4px;
-            padding:4px 4px;
-            font-family: Courier New;
-
-          }
-          input:hover{
-             background: #ded08c;
-          }
-
+input:hover{
+    background: #ded08c;
+}
 
 .inputs {
 	width:200px;
@@ -94,11 +86,11 @@ position: relative;
 	width:100%;
 	}
 form {
-	margin:0;
+
 	}
 
 sup, sub {
-	font-size:9px;
+	 font-size:9px;
 	 color:inherit;
 	 }
 
@@ -106,11 +98,11 @@ sup, sub {
 /* titre */
 h1 {
 	font-size:50px;
-	 color: #E8792D;
-   position: relative;
-	 left:550px;
-	 top: 10px;
-    font-family: Courier New;
+	color: #E8792D;
+  position: absolute;
+  top: 0%;
+	left:40%;
+  font-family: Courier New;
 
 	 }
 
@@ -118,50 +110,62 @@ h1 {
 table {
 	border-collapse:collapse;
 	}
+
+
 table td {
 	border:solid 1px #888;
-	 padding:15px;
-	  text-align:center;
+	text-align:center;
 	  }
+
+
 table tr.selected td {
 	background:#bfd1ff;
 	}
+
+
 table tr.selected td.selected {
 	background:#dce6ff;
 	}
+
+
 table tr td.valid {
 	display:none;
 	}
+
+
 table tr.selected td.valid {
 	display:table-cell;
 	}
 
+
 .pion {
 	display:inline-block;
 	width:25px;
-	 height:25px;
-	 border-radius:20px;
-	  border:solid 1px #888;
-	  }
+	height:25px;
+  border-radius:20px;
+  border:solid 1px #888;
+}
 
 
 
 /* pion */
 .correct {
 	display:inline-block;
-	 width:15px;
-	  height:15px;
-	   border-radius:10px;
-	    border:solid 1px #888;
-		 background:black;
+	width:15px;
+	height:15px;
+	border-radius:10px;
+  border:solid 1px #888;
+  background:black;
 		 }
+
+
 .misplaced {
 	display:inline-block;
-	 width:15px;
-	  height:15px;
-	   border-radius:10px;
-	    border:solid 1px #888;
-			background: white;
+	width:15px;
+	height:15px;
+	border-radius:10px;
+	border:solid 1px #888;
+  background: white;
 		}
 
 
@@ -172,24 +176,34 @@ table tr.win td {
 
 .page {
 	font-size:0;
-	position: relative;
-	top: 40px;
-	left: 270px;
+	position: absolute;
+	top: 30%;
+	left: 35%;
+}
 
 
-	}
 .page .game {
-	width:50%;
+  width:100%;
+  height: 200%;
 	display:inline-block;
-	 vertical-align:top;
+}
 
-	 }
+
 .page .options {
 	width:50%;
-	 display:inline-block;
-	  vertical-align:top;
+	display:inline-block;
+
 	  }
 .result {
-	text-align:center;
-	 font-size:30px;
+  text-align: center;
+  border: 1px solid #E8792D;
+  background: #998783;
+  font-family: Courier New;
+  color:  #b82404;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px 10px 10px 10px;
+  position: absolute;
+  top: 10%;
+  left: 35%;
 	 }

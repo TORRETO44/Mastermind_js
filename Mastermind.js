@@ -221,32 +221,13 @@ var MasterMind = {
 
 
 		displayWin: function() {
-			document.getElementById('result').innerHTML = 'Gagné';
+			document.getElementById('result').innerHTML = 'SuperSUS a survécu';
 			document.getElementById('result').style.color = '#43b456';
 			document.getElementById('turn-'+this.game['turn']).className = 'win';
 			this.game['turn'] = -1;				},
 	   displayLose: function() {
-			document.getElementById('result').innerHTML = 'Perdu';
+			document.getElementById('result').innerHTML = 'SuperSUS est mort';
 			document.getElementById('result').style.color = '#CC3333';
 			this.game['turn'] = -1;				},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 };
