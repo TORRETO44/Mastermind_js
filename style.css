@@ -62,7 +62,7 @@ h3{
          	padding:4px 4px;
           font-family: Courier New;
           animation: Commencer 5s;
-          animation-delay: 30s;
+          animation-delay: 34s;
           animation-fill-mode: forwards;
           position: absolute;
           top: 45%;
@@ -83,7 +83,7 @@ input:hover{
 img{
   opacity:0;
   animation: SuS 5s;
-  animation-delay: 30s;
+  animation-delay: 34s;
   animation-fill-mode: forwards;
   position: absolute;
   top: 35%;
@@ -131,7 +131,7 @@ img{
 
 .text_3{
   opacity: 0;
-  animation: text_3 5s;
+  animation: text_3 7s;
   animation-delay: 15s;
   position: absolute;
   top: 30%;
@@ -148,8 +148,8 @@ img{
 
 .text_4{
   opacity: 0;
-  animation: text_4 5s;
-  animation-delay: 20s;
+  animation: text_4 7s;
+  animation-delay: 22s;
   position: absolute;
   top: 30%;
   left: 10%;
@@ -165,11 +165,12 @@ img{
 .text_5{
   opacity: 0;
   animation: text_5 5s;
-  animation-delay: 25s;
+  animation-delay: 29s;
   position: absolute;
   top: 30%;
   left: 23%;
 }
+
 @keyframes text_5 {
   0% { opacity: 0; }
   100% { opacity: 1;}
